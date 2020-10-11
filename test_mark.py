@@ -30,7 +30,7 @@ class TestClass:
                                  (1, 2, 3),
                                  (4, 5, 9)
                              ],
-                             ids=["case1", "case2"])
+                             ids=["用例1", "用例2"])
     def test_func(self, a, b, result):
         print(f"{result}={a} + {b}")
 
